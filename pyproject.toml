@@ -1,0 +1,20 @@
+[project]
+name = "hrt-pk-mcp"
+version = "1.0.0"
+description = "激素替代治疗 (HRT) 药代动力学血药浓度监测 MCP 工具"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+
+[tool.setuptools.packages.find]
+include = ["pk_mcp*"]
+
+[tool.setuptools.package-data]
+pk_mcp = ["py.typed"]
+
+[project.scripts]
+hrt-pk-mcp = "pk_mcp.__main__:main"
