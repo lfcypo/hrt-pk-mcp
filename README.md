@@ -111,7 +111,7 @@ python ./test/cross_validate.py
 
 ## 修正联系
 
-若对项目中的药代动力学算法部分有任何问题或建议，请提出 issue 或联系学术通讯邮箱 lfcypo@gmail.com
+若对项目中的药代动力学算法部分有任何问题或建议，请提出 issue 或联系学术通讯邮箱 research@lfcypo.com
 
 ## 严重警告
 
